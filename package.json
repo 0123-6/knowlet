@@ -3,15 +3,12 @@
   "version": "0.0.1",
   "private": true,
   "engines": {
-    "node": ">=20",
+    "node": ">=24",
     "pnpm": ">=9"
   },
   "scripts": {
     "dev:web": "pnpm --filter @knowlet/web dev",
     "build:web": "pnpm --filter @knowlet/web build",
     "typecheck": "pnpm -r typecheck"
-  },
-  "devDependencies": {
-    "typescript": "^5"
   }
 }
